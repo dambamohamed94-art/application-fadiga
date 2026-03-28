@@ -65,7 +65,7 @@ export default function HomePage() {
           border border-white/30 px-8 py-4 text-base font-semibold text-white
           backdrop-blur
           transition-all duration-200
-          hover:bg-white hover:text-black"
+          hover:bg-orange-600 active:scale-95 hover:text-white"
         >
           Voir les produits vedettes
         </a>

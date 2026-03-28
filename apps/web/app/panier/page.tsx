@@ -177,11 +177,11 @@ export default function PanierPage() {
 
                   <div className="mt-8 space-y-4">
                     <Link
-                      href="/checkout?mode=guest"
-                      className="inline-flex w-full items-center justify-center rounded-full bg-black px-8 py-4 text-base font-semibold text-white transition hover:bg-orange-500"
-                    >
-                      Valider sans compte
-                    </Link>
+                        href="/checkout?mode=guest"
+                        className="inline-flex w-full items-center justify-center rounded-full bg-black px-8 py-4 text-base font-semibold !text-white no-underline transition-all duration-200 hover:!bg-orange-600 hover:!text-white"
+                      >
+                        <span className="!text-white">Valider sans compte</span>
+                      </Link>
 
                     <Link
                       href="/mon-compte"
@@ -191,11 +191,11 @@ export default function PanierPage() {
                     </Link>
 
                     <Link
-                      href="/"
-                      className="inline-flex w-full items-center justify-center rounded-full bg-orange-500 px-8 py-4 text-base font-semibold text-white transition hover:bg-black"
-                    >
-                      Continuer mes achats
-                    </Link>
+                        href="/"
+                        className="inline-flex w-full items-center justify-center rounded-full bg-orange-500 px-8 py-4 text-base font-semibold !text-white no-underline transition-all duration-200 hover:!bg-black hover:!text-white"
+                      >
+                        <span className="!text-white">Continuer mes achats</span>
+                      </Link>
                   </div>
 
                   <div className="mt-8 rounded-[24px] bg-gray-50 p-5">
