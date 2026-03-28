@@ -1,0 +1,7 @@
+node_modules
+.next
+.env
+deploy
+out
+**/node_modules
+**/.next
