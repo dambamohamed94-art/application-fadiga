@@ -2,6 +2,7 @@
   "name": "application-fadiga",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@8.15.9",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
